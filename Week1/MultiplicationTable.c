@@ -23,4 +23,5 @@ int main(void) {
 			printf("%d * %d = %d\n", i, j, i * j);
 		}
 	}
+	return 0;
 }
