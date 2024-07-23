@@ -11,7 +11,7 @@ int main(void) {
 	}
 	int dist;
 	scanf("%d", &dist);
-	arr = (int*)realloc(arr, sizeof(int)*dist);
+	arr = (int*)realloc(arr, dist*sizeof(int));
 	for (int i = 0; i < dist; i++) {
 		scanf("%d", &arr[num + i]);
 	}
